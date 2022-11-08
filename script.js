@@ -17,6 +17,12 @@ async function generateJoke() {
   jokeEl.innerHTML = data.joke
 }
 
+
+// Fetch request is built  into the browser. It is a native API
+// It is a sync method that means we have to wait each step, in async we do not. Remember de exmaple of a restaurant when 
+// the waiter is waiting until one table has everything asked, then the waiter can go to another table. (sync)
+// Async the waiter is serving multiple tables while the orders are in process. (async)
+
 // function generateJoke() {
 //     const config = {
 //         headers: {
